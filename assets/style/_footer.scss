@@ -1,0 +1,168 @@
+footer {
+    .explane {
+        padding: 0 100px;
+    }
+
+    .footer-wrap {
+        padding: 80px 0;
+
+        &--row {
+            display: flex;
+            gap: 200px;
+            justify-content: flex-start;
+            align-items: center;
+
+            &--left {
+                display: flex;
+                flex-direction: column;
+
+
+                a {
+                    margin-bottom: 30px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    li {
+
+                        span {
+                            color: #666666;
+                            font-size: 16px;
+                            line-height: 20px;
+                            font-family: "Manrope", sans-serif;
+                            font-weight: 600;
+
+                            a {
+                                color: #666666;
+                                font-size: 16px;
+                                line-height: 20px;
+                                font-family: "Manrope", sans-serif;
+                                font-weight: 600;
+                                transition: .7s;
+
+                                &:hover {
+
+                                    color: #ff5538;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &--right {
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+
+                h4 {
+                    color: #ff5538;
+                    font-size: 20px;
+                    font-family: "Manrope", sans-serif;
+                    font-weight: 700;
+                }
+
+                ul {
+                    padding-top: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px;
+
+
+                    li {
+
+
+
+                        a {
+                            color: #666666;
+                            font-size: 14px;
+                            font-family: "Manrope", sans-serif;
+                            font-weight: 400;
+                            transition: .7s;
+
+                            &:hover {
+
+                                transform: translate(10px 20px);
+
+
+
+
+                                color: #ff5538;
+
+                            }
+
+
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-copyright--wrap {
+        border-top: 1px solid #c6c6c9;
+
+        padding-top: 15px;
+        padding-bottom: 30px;
+
+        &--boxes {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &--content {
+                p {
+                    font-size: 14px;
+                    font-family: "Manrope", sans-serif;
+                    font-weight: 400;
+                    color: #666666;
+
+                    a {
+                        font-weight: 700;
+                        color: #ff5538;
+                    }
+                }
+            }
+
+            &--links {
+                ul {
+                    display: flex;
+                    gap: 15px;
+
+                    li {
+                        display: inline-block;
+
+                        a {
+
+
+                            i {
+                                width: 40px;
+                                height: 40px;
+                                line-height: 40px;
+                                border-radius: 50%;
+                                text-align: center;
+                                font-size: 18px;
+                                background: #ff5538;
+                                color: #ffffff;
+                                transition: .7s;
+
+                                &:hover {
+                                    color: #e5d2d2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

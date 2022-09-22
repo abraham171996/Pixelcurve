@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+
+     <!-- header start -->
+    <header>
+        <div class="container">
+            <div class="header-wrap">
+                <a href="#">
+                    <figure>
+                        <img src="/assets/images/aboutPageImages/logoBlue.png" alt="">
+                    </figure>
+                </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Aboute Us</a>
+                        </li>
+                        <li>
+                            <a href="/pages/Team/team.html">Pages</a>
+                        </li>
+                        <li class="blog">
+                            <a href="/pages/Blog/blog.html">Blog</a>
+                            <ul class="sub-menu">
+                                <li><a href="/pages/Blog/Details/details.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/pages/Contact/contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="header-wrap--meta">
+                    <div class="header-wrap--meta--info">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <div class="header-wrap--meta--info--contact">
+                            <p>Free Consultant</p>
+                            <a href="#">+36 55 540 069</a>
+                        </div>
+                    </div>
+                    <div class="header-wrap--icons">
+                        <div class="header-wrap--icons--search">
+                            <i id="search" class="fa fa-search"></i>
+                            <div class="search-wrap" >
+                                <div class="search-inner">
+                                    <i id="close" class="fa fa-times" aria-hidden="true"></i>
+
+                                    <div class="search-cell">
+                                        <form action="#">
+                                            <div class="search-field-holder">
+                                                <input class="main-search-input" type="search" placeholder="Search Your Keyword...">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-wrap--icons--cart">
+                            <i id="cart" class="fa fa-shopping-cart"></i>
+
+                              <!-- Header Dropdown Cart Start -->
+                              <div class=" dropdown-cart">
+                                  <button>
+                                    <i id="exit" class="fa fa-times" aria-hidden="true"></i>
+                                  </button>
+                                <!-- Dropdown Cart Items Start -->
+                                <div class="cart-items">
+                                    <!-- Single Cart Item Start -->
+                                    <div class="single-cart-item">
+                                        <div class="item-image">
+                                            <img src="/assets/images/shop-cart-1.jpg" alt="cart">
+                                        </div>
+                                        <div class="item-content">
+                                            <h4 class="title"><a href="#">Apple Iphone X</a></h4>
+                                            <span class="quantity">2 x $59.99</span>
+                                        </div>
+                                        
+                                    </div>
+                                    <!-- Single Cart Item End -->
+                                    <!-- Single Cart Item Start -->
+                                    <div class="single-cart-item">
+                                        <div class="item-image">
+                                            <img src="/assets/images/shop-cart-2.jpg" alt="cart">
+                                        </div>
+                                        <div class="item-content">
+                                            <h4 class="title"><a href="#">Sony Xperia Tablet</a></h4>
+                                            <span class="quantity">2 x $59.99</span>
+                                        </div>
+                                        
+                                    </div>
+                                    <!-- Single Cart Item End -->
+                                    <!-- Single Cart Item Start -->
+                                    <div class="single-cart-item">
+                                        <div class="item-image">
+                                            <img src="/assets/images/shop-cart-3.jpg" alt="cart">
+                                        </div>
+                                        <div class="item-content">
+                                            <h4 class="title"><a href="#">Camera Digital</a></h4>
+                                            <span class="quantity">2 x $59.99</span>
+                                        </div>
+                                        
+                                    </div>
+                                    <!-- Single Cart Item End -->
+                                </div>
+                                <!-- Dropdown Cart Items End -->
+                                <!-- Dropdown Cart Total Start -->
+                                <div class="cart-total">
+                                    <span class="label">Subtotal:</span>
+                                    <span class="value">0</span>
+                                </div>
+                                <!-- Dropdown Cart Total End -->
+                                <!-- Dropdown Cart Button Start -->
+                                <div class="cart-btns">
+                                    <a class="btn btn-3" href="#">View Cart</a>
+                                    <a class="btn btn-2" href="#">Checkout</a>
+                                </div>
+                                <!-- Dropdown Cart Button End -->
+                            </div>
+                            <!-- Header Dropdown Cart End -->
+                        </div>
+                        <div class="header-wrap--icons--bars">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+          <!-- Offcanvas Start-->
+          <div class="offcanvas offcanvas-start" >
+            <div class="offcanvas-header">
+                <!-- Offcanvas Logo Start -->
+                <div class="offcanvas-logo">
+                    <a href="index.html"><img src="/assets/images/aboutPageImages/logoBlue.png" alt=""></a>
+                </div>
+                <!-- Offcanvas Logo End -->
+                <button type="button" class="close-btn" data-bs-dismiss="offcanvas"><i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <!-- Offcanvas Body Start -->
+            <div class="offcanvas-body">
+                <div class="offcanvas-menu">
+                    <ul class="main-menu">
+                        <li class="active-menu">
+                            <a href="/index.html">Home</a>
+                            
+                                
+                            
+                        </li>
+                        <li>
+                            <a href="/pages/About/about.html">Aboute Us</a>
+                        </li>
+                        <li>
+                            <a href="/pages/Team/team.html">Pages</a>
+                         
+                        </li>
+                        <li>
+                            <a href="/pages/Blog/blog.html">Blog</a>
+                            
+                        </li>
+                        <li>
+                            <a href="/pages/Contact/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Offcanvas Body End -->
+        </div>
+        <!-- Offcanvas End -->
+    </header>
+     <!-- header end -->
+
+      <!-- main start -->   
+    <main>
+
+        <!-- page banner section    -->
+        <section class="page-banner">
+            <div class="page-banner--title">
+                <h2>About Us</h2>
+                <ul>
+                    <li>
+                        <a href="/index.html">Home /</a>
+                    </li>
+                    <li>
+                        <a href="#"> About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-banner--circle">
+
+            </div>
+
+        </section>
+         <!-- page banner section -->
+         
+         <!-- about section start -->
+        <section class="about-section">
+            <div class="about-section--all">
+                <div class="about-section--all--images">
+                    <div class="about-section--all--images--small">
+                        <img src="/assets/images/aboutPageImages/download (19).jpg" alt="">
+                    </div>
+                    <div class="about-section--all--images--big">
+                        <img src="/assets/images/aboutPageImages/download (18).jpg" alt="">
+                    </div>
+                    <div class="about-section--all--images--above">
+                        <img src="/assets/images/aboutPageImages/download (1).png" alt="">
+                    </div>
+                    <div class="about-section--all--images--video">
+                       <a href="https://www.youtube.com/watch?v=_X0eYtY8T_U" target="_blank"> <i class="fa fa-play" aria-hidden="true"></i></a>
+                    </div>
+
+                </div>
+                <div class="about-section--all--title">
+                    <div class="about-section--all--title--top">
+                        <h3>WHO WE ARE</h3>
+                        <h2>We specialise in helping our customers digitise their business</h2>
+                    </div>
+                    <p>Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of
+                        incredible freelance talent for all your software development needs.</p>
+                    <div class="about-section--all--title--bottom">
+                        <div class="about-section--all--title--bottom--left">
+                            <div class="about-section--all--title--bottom--left--image">
+                                <img src="/assets/images/aboutPageImages/download (20).jpg" alt="">
+                            </div>
+                            <div class="about-section--all--title--bottom--left--text">
+                                <img src="/assets/images/aboutPageImages/download (2).png" alt="">
+                                <h4>Mita Walker</h4>
+                                <span>CEO, Techmax</span>
+                            </div>
+                        </div>
+                        <div class="about-section--all--title--bottom--right">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <a href="#"> Solving complex problems</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <a href="#">We guarantee trusted service.</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <a href="#"> Experts in technology fields</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end -->
+
+        <!-- service wrap start  -->
+        <section class="service-wrap">
+            <div class="container">
+                <div class="service-wrap--cards">
+                    <div class="service-wrap--cards--card">
+                        <figure>
+                            <img src="/assets/images/aboutPageImages/rocket.png" alt="">
+                        </figure>
+                        <h3><a href="#">Strategy & Discovery</a></h3>
+                        <p>Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of
+                            incredible freelance</p>
+                    </div>
+                    <div class="service-wrap--cards--card">
+                        <figure>
+                            <img src="/assets/images/aboutPageImages/bar.png" alt="">
+                        </figure>
+                        <h3><a href="#">Strategy & Discovery</a></h3>
+                        <p>Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of
+                            incredible freelance</p>
+                    </div>
+                    <div class="service-wrap--cards--card">
+                        <figure>
+                            <img src="/assets/images/aboutPageImages/shearch.png" alt="">
+                        </figure>
+                        <h3><a href="#">Strategy & Discovery</a></h3>
+                        <p>Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of
+                            incredible freelance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service wrap end -->
+
+        <!-- skill section start -->
+        <section class="skill-section">
+            <div class="container">
+                <div class="skill-section--wrap">
+                    <div class="skill-section--wrap--left">
+                        <div class="skill-section--wrap--left--top">
+                            <h2>25+</h2>
+                            <span>
+                                Years of experience</span>
+                        </div>
+                        <h3>We run all kinds of <span>IT services</span> that vow your success</h3>
+                    </div>
+                    <div class="skill-section--wrap--right">
+                        <h3>Accelerate innovation with world-class tech teams We’ll match you to an entire remote technology</h3>
+                        <div class="skill-section--wrap--right--boxes">
+                            <div class="skill-section--wrap--right--boxes--top">
+                                <div class="skill-section--wrap--right--boxes--top--title">
+                                    <h5>IT Managment</h5>
+                                    <span >80 %</span>
+                                </div>
+                                <div class="skill-section--wrap--right--boxes--top--bar">
+                                    <div class="skill-section--wrap--right--boxes--top--bar--bottom">
+
+                                    </div>
+                                    <div class="skill-section--wrap--right--boxes--top--bar--top">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-section---wrap--right--boxes--bottom">
+                                <div class="skill-section--wrap--right--boxes--bottom--info">
+                                    <h5>Solution</h5>
+                                    <span >90 %</span>
+                                </div>
+                                <div class="skill-section--wrap--right--boxes--bottom--bar">
+                                    <div class="skill-section--wrap--right--boxes--bottom--bar--below">
+
+                                    </div>
+                                    <div class="skill-section--wrap--right--boxes--bottom--bar--above">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-section---wrap--right--boxes--bottom">
+                                <div class="skill-section--wrap--right--boxes--bottom--info">
+                                    <h5>Data Security</h5>
+                                    <span>90 %</span>
+                                </div>
+                                <div class="skill-section--wrap--right--boxes--bottom--bar">
+                                    <div class="skill-section--wrap--right--boxes--bottom--bar--below">
+
+                                    </div>
+                                    <div class="skill-section--wrap--right--boxes--bottom--bar--above">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill section end -->
+
+        <!-- counter wrap start -->
+        <section class="counter-wrap">
+            <div class="container">
+                <div class="counter-wrap--boxes">
+
+                    <div class="counter-wrap--boxes--first">
+                        <figure>
+                            <img src="assets/images/counterImageFirst.png" alt="">
+                        </figure>
+                        <div class="counter-wrap--boxes--first--box">
+                            <span>
+                                <span>354</span>
+                                +
+                            </span>
+
+                            <p>Completed Projects</p>
+                        </div>
+                    </div>
+                    <div class="counter-wrap--boxes--second">
+                        <figure>
+                            <img src="assets/images/counterImageSecond.png" alt="">
+                        </figure>
+                        <div class="counter-wrap--boxes--second--box">
+                            <span>
+                                <span>119</span>
+                                +
+                            </span>
+                            <p>Satisfied Clients</p>
+                        </div>
+                    </div>
+                    <div class="counter-wrap--boxes--third">
+                        <figure>
+                            <img src="assets/images/counterImageThird.png" alt="">
+                        </figure>
+                        <div class="counter-wrap--boxes--third--box">
+                            <span>
+                                <span>99</span>
+                                %
+                            </span>
+                            <p>Web Site Analyse</p>
+                        </div>
+                    </div>
+                    <div class="counter-wrap--boxes--forth">
+                        <figure>
+                            <img src="assets/images/counterImageForth.png" alt="">
+                        </figure>
+                        <div class="counter-wrap--boxes--forth--box">
+                            <span>
+                                <span>321</span>
+                                +
+                            </span>
+                            <p>Clients Supoort Done</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- counter wrap end -->
+
+        <!-- clients section start -->
+        <section class="clients-section">
+            <div class="container">
+                <div class="clients-section--all">
+                    <div class="clients-section--all--title">
+                        
+                        <h2><span>20k+ clients</span> love our service & IT releted solutions</h2>
+                    </div>
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-slide--left">
+                                    <img src="/assets/images/aboutPageImages/aboutSlideImage.jpg" alt="">
+
+                                </div>
+                                <div class="swiper-slide--right">
+                                    
+                                    <p>Accelerate innovation with world-class tech teams Beyond more stoic this along
+                                        goodness hey this this wow manatee </p>
+                                    <div class="swiper-slide--right--bottom">
+                                        <div class="swiper-slide--right--bottom--text">
+                                            <h5>Mike Holder</h5>
+                                            <span>CEO, Harlond inc</span>
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide--left">
+                                    <img src="/assets/images/aboutPageImages/aboutSlideImage.jpg" alt="">
+
+                                </div>
+                                <div class="swiper-slide--right">
+                                    <p>Accelerate innovation with world-class tech teams Beyond more stoic this along
+                                        goodness hey this this wow manatee </p>
+                                    <div class="swiper-slide--right--bottom">
+                                        <div class="swiper-slide--right--bottom--text">
+                                            <h5>Mike Holder</h5>
+                                            <span>CEO, Harlond inc</span>
+                                        </div>
+                                        <div class="swiper-slide--right--bottom--image">
+                                            <img src="assets/images/quote.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide--left">
+                                    <img src="/assets/images/aboutPageImages/aboutSlideImage.jpg" alt="">
+
+                                </div>
+                                <div class="swiper-slide--right">
+                                    <p>Accelerate innovation with world-class tech teams Beyond more stoic this along
+                                        goodness hey this this wow manatee </p>
+                                    <div class="swiper-slide--right--bottom">
+                                        <div class="swiper-slide--right--bottom--text">
+                                            <h5>Mike Holder</h5>
+                                            <span>CEO, Harlond inc</span>
+                                        </div>
+                                        <div class="swiper-slide--right--bottom--image">
+                                            <img src="assets/images/quote.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                      
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
+
+            </div>
+        </section>
+        <!-- clients section end -->
+
+          <!-- brand section start  -->
+          <section class="brand-section">
+
+            <div class="brand-section--all">
+                <h3>Trusted by
+
+                    <span> 3300+ </span>
+
+                    companies worldwide
+                </h3>
+                <div class="brand-section--all--pitcures">
+                    <div class="brand-section--all--pitcures--first">
+                        <img src="/assets/images/brandImage1.png" alt="">
+                    </div>
+                    <div class="brand-section--all--pitcures--second">
+                        <img src="/assets/images/brandImage2.png" alt="">
+                    </div>
+                    <div class="brand-section--all--pitcures--third">
+                        <img src="/assets/images/brandImage3.png" alt="">
+                    </div>
+
+                    <div class="brand-section--all--pitcures--forth">
+                        <img src="/assets/images/brandImage4.png" alt="">
+                    </div>
+                    <div class="brand-section--all--pitcures--fifth">
+                        <img src="/assets/images/brandImage5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- brand section end  -->
+        
+          <!-- contact section start  -->
+          <section class="contact-wrap">
+            <div class="contact-wrap--explane">
+                <div class="contact-wrap--cards">
+                    <div class="contact-wrap--cards--middle">
+                        <div class="contact-wrap--cards--middle--left">
+                            <h3>Need a Quick Query?</h3>
+                            <ul>
+                                <li class="special">
+                                    <div class="contact-icon">
+                                        <i></i>
+                                    </div>
+                                    <h4>Contact Number</h4>
+                                    <p>+00(1) 123 456 7890</p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="contact-icon">
+                                        <i></i>
+                                    </div>
+                                    <h4>Our Mail</h4>
+                                    <p>infotechmax@ourmail.com</p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="contact-icon">
+                                        <i></i>
+                                    </div>
+                                    <h4>Our Location</h4>
+                                    <p>New ipsum dolor amet, eiusmod adipisicing 147 New Yors, NY Adipisicing 123</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact-wrap--cards--middle--right">
+                            <div class="contact-wrap--cards--middle--right--title">
+                                <span>LEAVE US MASSAGE</span>
+                                <h3>How May We Help You!</h3>
+                            </div>
+                            <div class="contact-wrap--cards--middle--right--form">
+                                <form action="">
+                                    <div class="contact-wrap--cards--middle--right--form--top">
+                                        <input class="contact-name" type="text" placeholder="Name *">
+                                        <input class="contact-email" type="email" placeholder="Email *">
+                                    </div>
+                                    <input class="contact-subject" type="text" placeholder="Subject *">
+                                    <textarea class="contact-message" placeholder="Write A Message"></textarea>
+                                    <button class="contact-btn" >Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section end  -->
+    </main>
+    <!-- main end -->
+
+          <!-- footer start  -->
+          <footer>
+            <div class="explane">
+                <div class="footer-wrap">
+                    <div class="footer-wrap--row">
+                        <div class="footer-wrap--row--left">
+                            <a href="#">
+                                <img src="/assets/images/aboutPageImages/logoBlue.png" alt="">
+                            </a>
+                            <ul>
+                                <li>
+                                    <i></i>
+                                    <span>
+                                        <a href="#">+91 458 654 528</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <span>
+                                        <a href="#">info@example.com</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <span>
+                                        60 East 65th Street, NY
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-wrap--row--right">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">About Company</a></li>
+                                <li><a href="#">Payment Gatway</a></li>
+                                <li><a href="#">Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-wrap--row--right">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li><a href="#">Data Security</a></li>
+                                <li><a href="#">IT Managment</a></li>
+                                <li><a href="#">Outsourcing</a></li>
+                                <li><a href="#">Networking</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-wrap--row--right">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">FAQS</a></li>
+                                <li><a href="#">Download</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="footer-copyright--wrap">
+                <div class="container">
+                    <div class="footer-copyright--wrap--boxes">
+                        <div class="footer-copyright--wrap--boxes--content">
+                            <p>© Copyrights 2022<a href="#">Techmax</a>All rights reserved.</p>
+                        </div>
+                        <div class="footer-copyright--wrap--boxes--links">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end  -->
+        <div id="progress">
+            <i id="progress-value" class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+        </div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script src="/assets/js/api.js"></script>
+        <script src="/assets/js/slide.js">
+            
+        </script>
+        <script src="/assets/js/app.js"></script>
+</body>
+
+</html>
